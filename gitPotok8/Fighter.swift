@@ -8,8 +8,8 @@
 class Fighter {
     let name: String
 
-    init(name: String, health: Int = 100, strength: Int = 5) {
-
+    init(name: String, health: Int = 50, strength: Int = 5) {
+        self.name = name
     }
 
 }

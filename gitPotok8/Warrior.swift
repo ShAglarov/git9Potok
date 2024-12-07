@@ -7,6 +7,8 @@
 
 class Warrior: Fighter {
 
+    let type = "Воин"
+
     override init(name: String,
                   health: Int = 1000,
                   strength: Int = 10) {
@@ -14,6 +16,7 @@ class Warrior: Fighter {
     }
 
     func ultimateAbility() -> Int {
-        Int.random(in: 10...20)
+        let damage = Int.random(in: 10...20)
+        return damage
     }
 }
