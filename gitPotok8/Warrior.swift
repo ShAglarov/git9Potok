@@ -8,8 +8,8 @@
 class Warrior: Fighter {
 
     override init(name: String,
-                  health: Int = 500,
-                  strength: Int = 8) {
+                  health: Int = 1000,
+                  strength: Int = 10) {
         super.init(name: name)
     }
 
