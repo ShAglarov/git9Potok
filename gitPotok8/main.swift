@@ -7,12 +7,6 @@
 
 import Foundation
 
-var player1 = Warrior(name: "Shamil")
-var player2 = Warrior(name: "Oleg")
+print("Hello, World!")
 
-<<<<<<< HEAD
 print("Hello iOS programmer")
-=======
-print(player1.ultimateAbility())
-print(player2.ultimateAbility())
->>>>>>> f2cd850 (added main menu)
