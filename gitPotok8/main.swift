@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Hello iOS programmer")
 
+var player1 = Warrior(name: "Shamil")
+var player2 = Warrior(name: "Oleg")
+
+print(player1.ultimateAbility())
+print(player2.ultimateAbility())
