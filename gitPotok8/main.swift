@@ -8,3 +8,5 @@
 import Foundation
 
 print("Hello iOS programmer")
+
+print("You are right")

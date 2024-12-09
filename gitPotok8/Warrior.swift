@@ -14,6 +14,7 @@ class Warrior: Fighter {
     }
 
     func ultimateAbility() -> Int {
-        Int.random(in: 50...100)
+        let damage = Int.random(in: 50...100)
+        return damage
     }
 }
