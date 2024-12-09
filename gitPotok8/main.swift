@@ -10,3 +10,5 @@ import Foundation
 print("Hello, World!")
 
 print("Hello iOS programmer")
+
+print("You are right")
