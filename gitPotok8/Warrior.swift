@@ -15,5 +15,7 @@ class Warrior: Fighter {
 
     func ultimateAbility() -> Int {
         Int.random(in: 10...20)
+        
+        // Oleg1
     }
 }
