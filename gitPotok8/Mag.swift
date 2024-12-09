@@ -1,19 +1,19 @@
 //
-//  Warrior.swift
+//  Mag.swift
 //  gitPotok8
 //
-//  Created by Shamil Aglarov on 07.12.2024.
-// test
+//  Created by Oleg on 09.12.2024.
+//
 
-class Warrior: Fighter {
+class Mag: Fighter {
 
     override init(name: String,
-                  health: Int = 1000,
+                  health: Int = 500,
                   strength: Int = 10) {
         super.init(name: name)
     }
 
     func ultimateAbility() -> Int {
-        Int.random(in: 50...100)
+        Int.random(in: 10...50)
     }
 }
